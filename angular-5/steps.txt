@@ -1,0 +1,7 @@
+Unzip angular-cli.zip
+Installing Angular CLI 1.6 for Angular 5 Versions
+Local Folder: npm install @angular/cli@1.6
+Global : npm install -g @angular/cli@1.6
+
+Note: Local Installation : run the set path command for creating and running the angular applications
+set PATH=%PATH%;D:\Vagrant\ubuntu_xenial64\apps\_practice\angular\angular-5\angular-cli\node_modules\.bin
