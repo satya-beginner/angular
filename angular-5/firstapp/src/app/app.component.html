@@ -1,0 +1,37 @@
+Welcome to {{ title }}!
+
+<p>helloworld component Content</p>
+<app-helloworld></app-helloworld>
+
+
+<h1>Route Demo</h1>
+<nav>
+    <a routerLink="/home">Home</a>
+    <a routerLink="/about-us">About Us</a>
+    <a routerLink="/contact-us">Contact Us</a>
+    <a routerLink="/routeparamsdemo/1001">Route Params Demo</a>
+</nav>
+
+<router-outlet></router-outlet>
+
+
+<h1>User Service Demo</h1>
+{{users | json}}
+
+
+<h1>*ngFor Demo</h1>
+<ol>
+    <li *ngFor="let user of userList">{{user}}</li>
+</ol>
+
+<select>
+<option *ngFor="let user of userList" [value]="user">{{user}}</option>
+</select>
+
+
+<h1>Template Driven Forms Demo</h1>
+<app-template-driven-forms></app-template-driven-forms>
+
+
+<h1>Reactive Forms Demo</h1>
+<app-reactive-forms></app-reactive-forms>
